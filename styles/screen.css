@@ -1,50 +1,94 @@
 body {
-    font-family: Helvetica, sans-serif;
-    color: #EAE8FF;
-    background: #2D3142;
-    padding: 0 40px;
-    text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  color: #DBACA9;
+  font-family: "Inclusive Sans", sans-serif;
 }
 
 nav {
-    margin: 40px auto 0 auto;
-    width: 250px;
-    border-radius: 50px;
-    background: #212431;
+  text-align: center;
+  padding: 3rem 0;
+  background-color: #000;
 }
 
 nav ul {
-    display: flex;
-    justify-content: space-evenly;
-    margin: 0;
-    padding: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-nav ul li {
-    list-style-type: none;
-    margin: 0;
+nav li {
+  display: inline-block;
+  margin: 0 1rem;
 }
 
-nav ul li a {
-    display: inline-block;
-    padding: 20px;
-    color: #EAE8FF;
-    text-decoration: none;
-    font-size: 1.2em;
+nav a {
+  color: #B8DDF5;
+  text-decoration: none;
+  font-weight: 1000;
 }
 
-h1 {
-    font-size: 8em;
-    letter-spacing: -2px;
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3rem 10rem;
 }
 
-h1 strong {
-    background: rgb(34,193,195);
-    background: linear-gradient(45deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+.home_image img {
+  max-width: 500px;
+  width: 100%;
+  height: auto;
 }
 
-img.about {
-    opacity: 0.5;
+.home_content {
+  max-width: 400px;
+  margin-left: 2rem;
+}
+
+.home_content h1 {
+  font-size: 3rem;
+  margin-bottom: 3rem;
+}
+
+.home_content p {
+  margin-bottom: 3rem;
+  line-height: 1.6;
+}
+
+.home_content ul {
+  list-style: inside;
+  padding: 0;
+  color: #B8DDF5;
+}
+
+.home_content li {
+  margin-bottom: 0.5rem;
+}
+
+.home_content li a {
+  color: #B8DDF5;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.home_content li a:hover {
+  text-decoration: underline;
+}
+
+.page-content {
+  padding: 0rem;
+  max-width: 1300px;
+  margin: auto;
+  line-height: 1.6;
+}
+
+.ship-status {
+  font-style: italic;
+  background-color: #9F4146;
+  color: #DBACA9;
+  padding: 0.5em;
+  border-radius: 4px;
+  margin: 1em 0;
 }
