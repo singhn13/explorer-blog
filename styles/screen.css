@@ -50,6 +50,7 @@ nav a {
 .home_content h1 {
   font-size: 3rem;
   margin-bottom: 3rem;
+  line-height: 4rem;
 }
 
 .home_content p {
