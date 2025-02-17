@@ -1,6 +1,7 @@
 # Explorer Blog!
 
 Final website deployed on [Netlify](https://mi449-explorer-blog.netlify.app/)
+
 Built using 11ty with HTML/CSS
 
 ## Quickstart
